@@ -1,0 +1,86 @@
+h1 {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.editNavigation {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0;
+}
+
+.editNavigation > a {
+  padding: 15px 35px;
+  border-radius: 15px;
+  box-shadow: 2px 3px 3px grey;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+  min-width: 70px;
+}
+
+.delete {
+  background-color: rgba(236, 106, 106, 0.411);
+}
+
+.delete:hover {
+  background-color: rgba(209, 29, 29, 0.527);
+  transition: 0.45s;
+}
+
+.save {
+  background-color: rgba(6, 155, 43, 0.363);
+}
+
+.save:hover {
+  background-color: rgba(5, 170, 32, 0.664);
+  transition: 0.45s;
+}
+
+.cancel {
+  background-color: rgba(153, 152, 152, 0.452);
+}
+
+.cancel:hover {
+  background-color: rgba(134, 133, 133, 0.637);
+  transition: 0.45s;
+}
+
+.edit-item-modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1%;
+  background-color: white;
+  padding: 20px;
+  width: 40vw;
+  margin-bottom: 50px;
+  padding: 30px;
+  border-top: 4px solid var(--primaryColor);
+}
+
+.edit-item-modal > input {
+  margin: 10px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 15px;
+  border: 1px solid grey;
+  outline: none;
+  min-width: 120px;
+  margin: 0 -50px;
+}
+
+label {
+  font-size: 19px;
+  margin-top: 10px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  margin-bottom: 10px;
+}

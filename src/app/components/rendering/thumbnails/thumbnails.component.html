@@ -1,0 +1,19 @@
+<aside>
+  <div class="thumbnails" *ngFor="let item of thumbnailsItems">
+    <div class="aside">
+      <a href="#">
+        <img class="thumbnail" src="{{ item.img }}" />
+      </a>
+      <h3 class="item-title">{{ item.title }}</h3>
+      <p class="item-text">{{ item.text }}</p>
+      <p class="price">{{ item.price | currency }}</p>
+      <div class="item-buttons">
+        <!-- Routing goes here -->
+        <a class="edit" id="{{ item.id }}" routerLink="/edit/{{ item.id }}"
+          >Edit</a
+        >
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+  </div>
+</aside>

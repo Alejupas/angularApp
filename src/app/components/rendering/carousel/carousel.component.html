@@ -1,0 +1,13 @@
+<section id="carousel">
+  <button class="carousel__button carousel__button--left"></button>
+  <a href="https://www.google.com">
+    <div class="carousel">
+      <div class="image-container" *ngFor="let item of carouselItems">
+        <img src="{{ item.img }}" alt="{{ item.text }}" />
+        <h2>{{ item.text }}</h2>
+      </div>
+    </div>
+  </a>
+
+  <button class="carousel__button carousel__button--right"></button>
+</section>

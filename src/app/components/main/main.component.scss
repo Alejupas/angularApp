@@ -1,0 +1,16 @@
+main {
+  margin-top: 100px;
+}
+
+main > h1 {
+  font-size: 22px;
+  text-align: center;
+  margin-top: var(--spacer-3);
+  margin-bottom: var(--spacer-4);
+}
+
+.add-item:hover {
+  background-color: var(--secondaryColor);
+  color: white;
+  transition: 0.45s;
+}

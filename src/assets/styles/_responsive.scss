@@ -1,0 +1,307 @@
+/* MOBILE */
+@media screen and (max-width: 425px) {
+  .logo {
+    height: 50px;
+  }
+
+  .login-button {
+    padding: 16px;
+  }
+
+  #carousel > .carousel__button--right {
+    right: 12%;
+    height: 20px;
+    width: 20px;
+  }
+
+  #carousel > .carousel__button--left {
+    left: 12%;
+    height: 20px;
+    width: 20px;
+  }
+
+  nav > .nav-buttons {
+    width: 60%;
+  }
+
+  .nav-buttons > .login-button {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .nav-buttons > input {
+    padding: 10px;
+    font-size: 13px;
+    width: 30%;
+  }
+
+  aside > .thumbnails {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 90%;
+  }
+
+  .aside > a > img {
+    height: 85px;
+    width: 85px;
+  }
+
+  .thumbnails > .aside > h3 {
+    font-size: 16px;
+  }
+
+  footer {
+    flex-basis: 35%;
+    flex-wrap: wrap;
+  }
+
+  h2 {
+    font-size: 25px;
+    margin-top: 40px;
+  }
+
+  .create-item-modal {
+    width: 80vw;
+  }
+
+  .create-item-buttons {
+    text-align: center;
+  }
+
+  .create-item-buttons > .add-toList-btn {
+    margin-bottom: 10px;
+  }
+
+  .create-item-buttons > button {
+    font-size: 14px;
+    padding: 10px 20px;
+    min-width: 50vw;
+  }
+
+  .create-item-modal > input {
+    padding: 7px;
+    min-width: 50vw;
+    margin: 0 auto;
+  }
+
+  .login-container {
+    width: 70vw !important;
+  }
+
+  .login-container > h1 {
+    font-size: 25px;
+  }
+
+  .input-container > input {
+    width: 70vw;
+  }
+
+  .login-container > .input-container > .login-button {
+    margin-top: 35px;
+  }
+}
+
+/* TABLET */
+@media screen and (min-width: 425px) {
+  .nav-buttons > .login-button {
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+
+  .nav-buttons > .search-input {
+    padding: 10px;
+    font-size: 16px;
+    width: 30%;
+  }
+
+  footer {
+    flex-basis: 35%;
+    flex-wrap: wrap;
+  }
+
+  h4 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .footer-col > h4 {
+    padding-bottom: 5px;
+    padding-top: 20px;
+  }
+
+  section#carousel {
+    max-width: 80%;
+    height: 45vh !important;
+  }
+
+  #carousel > .carousel__button--right {
+    right: 8%;
+    height: 20px;
+    width: 20px;
+  }
+
+  #carousel > .carousel__button--left {
+    left: 8%;
+    height: 20px;
+    width: 20px;
+  }
+
+  aside > .thumbnails > .aside > a > img {
+    height: 85px;
+    width: 85px;
+  }
+
+  aside > .thumbnails {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+  }
+
+  h2 {
+    font-size: 35px;
+    margin-top: 90px;
+  }
+
+  .create-item-modal {
+    width: 60vw;
+  }
+
+  .create-item-buttons {
+    text-align: center;
+  }
+
+  .create-item-buttons > button {
+    font-size: 16px;
+    min-width: 60%;
+  }
+
+  .create-item-buttons > .add-toList-btn {
+    margin-bottom: 20px;
+  }
+}
+
+/* LAPTOP */
+@media screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .nav-buttons > .login-button {
+    margin-right: 50px;
+    padding: 13px 35px;
+    font-size: 15px;
+  }
+
+  .menu > h1 {
+    font-size: 27px;
+    margin-top: 15px;
+  }
+
+  footer {
+    flex-basis: 35%;
+    flex-wrap: wrap;
+  }
+
+  section#carousel {
+    max-width: 70%;
+    height: 50vh;
+  }
+
+  #carousel > .carousel__button--right {
+    right: 5%;
+    height: 30px;
+    width: 30px;
+  }
+
+  #carousel > .carousel__button--left {
+    left: 5%;
+    height: 30px;
+    width: 30px;
+  }
+
+  aside > .thumbnails > .aside > a > img {
+    height: 130px;
+    width: 130px;
+  }
+
+  h2 {
+    font-size: 40px;
+    margin-top: 110px;
+  }
+
+  .create-item-modal {
+    width: 60vw;
+  }
+
+  .create-item-buttons > button {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  aside > .thumbnails {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+  }
+}
+
+/* L LAPTOP and DESKTOP */
+@media screen and (min-width: 1024px) {
+  .nav-buttons {
+    width: 60%;
+  }
+
+  .nav-buttons > input {
+    padding: 20px;
+    font-size: 17px;
+    min-width: 20%;
+  }
+
+  section#carousel {
+    max-width: 70%;
+    height: 65vh !important;
+    padding-bottom: var(--spacer-4);
+  }
+
+  #carousel > .carousel__button--right {
+    right: 8%;
+    height: 35px;
+    width: 35px;
+  }
+
+  #carousel > .carousel__button--left {
+    left: 8%;
+    height: 35px;
+    width: 35px;
+  }
+
+  aside > .thumbnails > .aside > a > img {
+    height: 200px;
+    width: 200px;
+  }
+
+  h2 {
+    font-size: 50px;
+    margin-top: 150px;
+  }
+
+  .create-item-modal {
+    width: 30vw;
+  }
+
+  .create-item-buttons > button {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  aside > .thumbnails {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+  }
+}

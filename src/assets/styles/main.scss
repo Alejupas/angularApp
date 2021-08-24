@@ -1,0 +1,44 @@
+* {
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+#logo > .logo {
+  height: 50px;
+  margin-top: 15px;
+}
+
+:root {
+  --primaryColor: #ffb740;
+  --secondaryColor: #df711b;
+  --thirdColor: #64c9cf;
+  --spacer-2: 0.5rem;
+  --spacer-3: 1rem;
+  --spacer-4: 2rem;
+  --spacer-5: 5rem;
+}
+
+.display-none {
+  display: none;
+}

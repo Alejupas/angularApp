@@ -1,0 +1,45 @@
+/* NAVIGATION */
+header {
+  position: fixed;
+  top: 0;
+  margin-bottom: 80px;
+  z-index: 11;
+  width: 100vw;
+}
+
+nav {
+  line-height: 78px;
+  background-color: var(--primaryColor);
+  height: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  box-shadow: 1px 1px 7px 1px var(--secondaryColor);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 40;
+}
+
+.login-button,
+.search-input {
+  padding: 12px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 1px 2px 4px var(--secondaryColor);
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  cursor: pointer;
+  outline: none;
+}
+
+.login-button {
+  margin-left: 20px;
+}
+
+.login-button:hover {
+  background-color: var(--secondaryColor);
+  color: white;
+  transition: 0.45s;
+}

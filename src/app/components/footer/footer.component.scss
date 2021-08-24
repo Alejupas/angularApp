@@ -1,0 +1,36 @@
+/* FOOTER */
+footer {
+  background-color: #241306;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  width: 100 vw;
+}
+
+.footer-col > h4,
+p {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footer-col > .footer-links > a {
+  text-decoration: none;
+  color: white;
+  text-align: left;
+}
+
+.footer-col > .footer-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-col > p {
+  width: 300px;
+  padding: 1px;
+}
+
+.footer-col > h4 {
+  padding-bottom: 5px;
+  padding-top: 20px;
+}

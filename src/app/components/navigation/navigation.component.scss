@@ -1,0 +1,28 @@
+Nav > a {
+  display: flex;
+  margin-top: 20px;
+  text-decoration: none;
+  box-shadow: 2px 3px 2px grey;
+  background-color: var(--primaryColor);
+  border-radius: 15px;
+  padding: 10px 30px;
+  color: rgb(100, 100, 100);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+Nav {
+  max-width: 45vw;
+  margin-top: 100px;
+}
+
+Nav > a:hover {
+  background-color: var(--secondaryColor);
+  color: white;
+  transition: 0.45s;
+}
+
+Nav > a:focus {
+  background-color: var(--secondaryColor);
+  color: white;
+}

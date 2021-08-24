@@ -1,0 +1,37 @@
+<h1>Item Control Center</h1>
+<div class="edit-item-modal" *ngIf="item">
+  <label for="title"> Item Title </label>
+  <input
+    id="title"
+    type="text"
+    class="title-input"
+    maxlength="60"
+    [(ngModel)]="item.title"
+  />
+  <label for="text"> Item Description </label>
+  <input
+    id="text"
+    type="text"
+    class="text-input"
+    maxlength="60"
+    [(ngModel)]="item.text"
+  />
+  <label for="img"> Item Picture </label>
+  <input id="img" type="text" class="photoUrl-input" value="{{ item.img }}" />
+  <label for="price"> Item Price </label>
+  <input
+    id="price"
+    type="number"
+    class="price-input"
+    [(ngModel)]="item.price"
+  />
+
+  <div class="editNavigation">
+    <a routerLink="/" class="delete" (click)="onDelete(item.id)" type="submit"
+      >Delete</a
+    >
+    <a routerLink="/" class="save" (click)="onEdit(item.id)">Save</a>
+    <a routerLink="/" class="cancel">Cancel</a>
+  </div>
+</div>
+<!-- <pre><p>{{item | json}}</p></pre> -->

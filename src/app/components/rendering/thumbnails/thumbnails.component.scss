@@ -1,0 +1,96 @@
+/* ASIDE */
+aside {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+aside > .thumbnails {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.thumbnails > .aside > a > img {
+  display: block;
+}
+
+.thumbnails > .aside > h3,
+.item-title,
+.item-text {
+  text-align: center;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.thumbnails > .aside {
+  width: 25vw;
+  margin-bottom: 50px;
+}
+
+.thumbnail {
+  border-radius: 15px;
+  box-shadow: 1px 2px 3px rgb(199, 199, 199);
+}
+
+.thumbnail:hover {
+  transform: scale(1.04);
+  transition: 0.4s;
+}
+
+.thumbnails > .aside > .price {
+  color: rgb(6, 141, 6);
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.item-buttons > a {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 10vw;
+  text-decoration: none;
+  color: black;
+}
+
+.edit {
+  border-radius: 15px;
+  padding: 8px 24px;
+  border: none;
+  font-size: 17px;
+  box-shadow: 2px 2px 2px grey;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  background-color: rgb(212, 212, 212);
+}
+
+.edit:hover {
+  background-color: rgb(187, 187, 187);
+  transition: 0.45s;
+}
+
+.delete {
+  text-decoration: none;
+  color: black;
+  border-radius: 15px;
+  padding: 8px 15px;
+  border: none;
+  font-size: 17px;
+  background-color: rgba(228, 46, 46, 0.384);
+  box-shadow: 2px 2px 2px grey;
+  margin-top: 40px;
+  cursor: pointer;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.delete:hover {
+  background-color: rgba(233, 21, 21, 0.582);
+  transition: 0.45s;
+}
